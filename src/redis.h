@@ -425,6 +425,7 @@ typedef long long mstime_t; /* millisecond time type. */
 #define REDIS_LRU_CLOCK_MAX ((1<<REDIS_LRU_BITS)-1) /* Max value of obj->lru */
 #define REDIS_LRU_CLOCK_RESOLUTION 1000 /* LRU clock resolution in ms */
 typedef struct redisObject {
+    //
     unsigned type:4;
     unsigned encoding:4;
     unsigned lru:REDIS_LRU_BITS; /* lru time (relative to server.lruclock) */
@@ -598,15 +599,30 @@ struct sharedObjectsStruct {
     *bulkhdr[REDIS_SHARED_BULKHDR_LEN];  /* "$<value>\r\n" */
 };
 
-/* ZSETs use a specialized version of Skiplists */
+/**
+ * ZSETs use a specialized version of Skiplists
+ */
 typedef struct zskiplistNode {
+
+    // 成员对象
     robj *obj;
+
+    // 分值
+    // double 类型
     double score;
+
+    // 后退指针
     struct zskiplistNode *backward;
+
+    // 每层的结构体，例如可能有 32 层
+    // 而且这里声明了一个数组
     struct zskiplistLevel {
+        // 前进指针，指向的是 zskiplistNode !
         struct zskiplistNode *forward;
+        // 跨度
         unsigned int span;
     } level[];
+
 } zskiplistNode;
 
 typedef struct zskiplist {
