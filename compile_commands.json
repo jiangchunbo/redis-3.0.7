@@ -1,0 +1,602 @@
+[
+    {
+        "command": "cc -c -std=c99 -pedantic -O0 -fPIC -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb /home/jcb/CLionProjects/redis-3.0.7/deps/hiredis/net.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis/net.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -O0 -fPIC -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb /home/jcb/CLionProjects/redis-3.0.7/deps/hiredis/hiredis.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis/hiredis.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -O0 -fPIC -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb /home/jcb/CLionProjects/redis-3.0.7/deps/hiredis/sds.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis/sds.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -O0 -fPIC -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb /home/jcb/CLionProjects/redis-3.0.7/deps/hiredis/async.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis/async.c"
+    },
+    {
+        "command": "cc -c -Wall -Os -g /home/jcb/CLionProjects/redis-3.0.7/deps/linenoise/linenoise.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise/linenoise.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lapi.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lapi.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lapi.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lcode.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lcode.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lcode.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o ldebug.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ldebug.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ldebug.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o ldo.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ldo.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ldo.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o ldump.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ldump.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ldump.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lfunc.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lfunc.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lfunc.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lgc.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lgc.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lgc.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o llex.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/llex.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/llex.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lmem.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lmem.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lmem.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lobject.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lobject.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lobject.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lopcodes.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lopcodes.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lopcodes.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lparser.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lparser.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lparser.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lstate.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lstate.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lstate.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lstring.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lstring.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lstring.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o ltable.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ltable.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ltable.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o ltm.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ltm.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ltm.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lundump.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lundump.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lundump.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lvm.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lvm.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lvm.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lzio.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lzio.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lzio.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o strbuf.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/strbuf.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/strbuf.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o fpconv.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/fpconv.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/fpconv.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lauxlib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lauxlib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lauxlib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lbaselib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lbaselib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lbaselib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o ldblib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ldblib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ldblib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o liolib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/liolib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/liolib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lmathlib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lmathlib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lmathlib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o loslib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/loslib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/loslib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o ltablib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ltablib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/ltablib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lstrlib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lstrlib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lstrlib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o loadlib.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/loadlib.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/loadlib.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o linit.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/linit.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/linit.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lua_cjson.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua_cjson.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua_cjson.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lua_struct.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua_struct.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua_struct.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lua_cmsgpack.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua_cmsgpack.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua_cmsgpack.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lua_bit.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua_bit.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua_bit.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o lua.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/lua.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o luac.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/luac.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/luac.c"
+    },
+    {
+        "command": "cc -c -O2 -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -o print.o /home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/print.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src/print.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/jemalloc.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/jemalloc.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/jemalloc.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/arena.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/arena.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/arena.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/atomic.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/atomic.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/atomic.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/base.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/base.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/base.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/bitmap.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/bitmap.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/bitmap.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/chunk.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/chunk.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/chunk.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/chunk_dss.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/chunk_dss.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/chunk_dss.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/chunk_mmap.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/chunk_mmap.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/chunk_mmap.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/ckh.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/ckh.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/ckh.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/ctl.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/ctl.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/ctl.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/extent.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/extent.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/extent.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/hash.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/hash.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/hash.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/huge.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/huge.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/huge.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/mb.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/mb.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/mb.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/mutex.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/mutex.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/mutex.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/prof.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/prof.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/prof.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/quarantine.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/quarantine.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/quarantine.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/rtree.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/rtree.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/rtree.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/stats.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/stats.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/stats.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/tcache.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/tcache.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/tcache.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/util.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/util.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/util.c"
+    },
+    {
+        "command": "cc -c -std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops -D_GNU_SOURCE -D_REENTRANT -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include -o src/tsd.o /home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/tsd.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/src/tsd.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/adlist.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/adlist.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/ae.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/ae.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/anet.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/anet.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/dict.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/dict.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/redis.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/redis.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/sds.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/sds.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/zmalloc.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/zmalloc.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/lzf_c.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/lzf_c.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/lzf_d.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/lzf_d.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/pqsort.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/pqsort.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/zipmap.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/zipmap.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/sha1.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/sha1.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/ziplist.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/ziplist.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/release.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/release.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/networking.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/networking.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/util.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/util.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/object.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/object.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/db.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/db.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/replication.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/replication.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/rdb.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/rdb.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/t_string.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/t_string.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/t_list.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/t_list.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/t_set.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/t_set.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/t_zset.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/t_zset.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/t_hash.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/t_hash.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/config.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/config.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/aof.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/aof.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/pubsub.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/pubsub.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/multi.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/multi.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/debug.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/debug.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/sort.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/sort.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/intset.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/intset.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/syncio.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/syncio.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/cluster.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/cluster.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/crc16.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/crc16.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/endianconv.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/endianconv.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/slowlog.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/slowlog.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/scripting.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/scripting.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/bio.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/bio.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/rio.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/rio.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/rand.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/rand.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/memtest.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/memtest.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/crc64.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/crc64.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/bitops.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/bitops.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/sentinel.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/sentinel.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/notify.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/notify.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/setproctitle.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/setproctitle.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/blocked.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/blocked.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/hyperloglog.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/hyperloglog.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/latency.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/latency.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/sparkline.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/sparkline.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/redis-cli.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/redis-cli.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/redis-benchmark.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/redis-benchmark.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/redis-check-dump.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/redis-check-dump.c"
+    },
+    {
+        "command": "cc -c -std=c99 -pedantic -Wall -W -O0 -g -ggdb -I/home/jcb/CLionProjects/redis-3.0.7/deps/hiredis -I/home/jcb/CLionProjects/redis-3.0.7/deps/linenoise -I/home/jcb/CLionProjects/redis-3.0.7/deps/lua/src -DUSE_JEMALLOC -I/home/jcb/CLionProjects/redis-3.0.7/deps/jemalloc/include /home/jcb/CLionProjects/redis-3.0.7/src/redis-check-aof.c",
+        "directory": "/home/jcb/CLionProjects/redis-3.0.7/src",
+        "file": "/home/jcb/CLionProjects/redis-3.0.7/src/redis-check-aof.c"
+    }
+]
